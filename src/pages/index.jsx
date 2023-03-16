@@ -10,7 +10,6 @@ const inter = Inter({ subsets: ['latin'] })
 
 export async function getStaticProps(context) {
 	const { locale } = context;
-	console.log('localexxx', locale);
   return {
     props: {
       ...(await serverSideTranslations(locale, ['common']))
@@ -61,6 +60,7 @@ export default function Home() {
       <main className={styles.main}>
 				<div className='content'>
 					<h1>{t('title')}</h1>
+					<h2>{t('subtitle')}</h2>
 					<p>{t('p1')}</p>
 					<p>{t('p2')}</p>
 					<p>{t('p3')}</p>
