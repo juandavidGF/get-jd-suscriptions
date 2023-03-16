@@ -60,7 +60,9 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
 				<div className={styles.content}>
-					<Link href="https://artmelon.me"><img src="/icon.png" alt="logo artMelon" width="100px" height="100px"  /></Link>
+					<div>
+						<Link href="https://artmelon.me"><img src="/icon.png" alt="logo artMelon" width="100px" height="100px"  /></Link>
+					</div>
 					<h1>{t('title')}</h1>
 					<h2>{t('subtitle')}</h2>
 					<p className={styles.date}>{t('p1')}</p>
