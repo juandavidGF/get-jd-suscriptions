@@ -67,7 +67,7 @@ export default function Home() {
 					<p style={{color: "#D2691E"}}>{t('p4')}</p>
 					<br/><form onSubmit={handleSubmit} className="suscription">
 						<p>{t('label-cta')}</p>
-						<input className={styles.email} type="text" id="email" placeholder="example@email.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
+						<input className={styles.email} type="text" id="email" placeholder="example@aimnerd.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
 						<button className={styles.suscribe} type="submit">{t('cta-button')} </button>
 						<div id='status'></div>
 					</form><br/>
