@@ -1,10 +1,21 @@
 {
   "title": "¡Únete a mi transmisión en vivo!",
 	"subtitle": "¡Programando con GPT-4 para soluciones de IA y desarrollo de software!",
-	"p1": "Fecha y hora: 'Mañana a las 3 PM hora de Colombia'",
+	"p1": "Fecha y hora: 'Mañana 17, a las 3 PM hora de Colombia'",
 	"p4": "¡Suscríbete para entrar en mi lista de amigos VIP, amigos geniales y súper amigos!",
 	"p3": "Te enviaré un enlace para unirte a la transmisión en vivo",
 	"p2": "Construyendo un negocio como emprendedor independiente...",
 	"label-cta": "¡No te enviaré spam, seguro!",
-	"cta-button": "Vamos a hacerlo, bebé"
+	"cta-button": "Vamos pues, bebé"
+}
+
+{
+  "title": "Join my Live Stream: ",
+	"subtitle": "Coding with GPT-4 for AI Solutions & Software Development!",
+  "p1": "Date and time: 'Tomorrow, Friday, 17th at 3 PM Colombia Time'",
+	"p4": "Suscribe to get in my VIP friends and cool friends, and super friends club list!",
+	"p3": "I will send you a link to join the live stream",
+	"p2": "Building a business as an indie entrepreneur...",
+	"label-cta": "I don't go to spam you, sure !!",
+	"cta-button": "Lets do it baby"
 }
