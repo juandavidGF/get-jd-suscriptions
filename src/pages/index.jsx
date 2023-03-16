@@ -58,10 +58,10 @@ export default function Home() {
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       <main className={styles.main}>
-				<div className='content'>
+				<div className={styles.content}>
 					<h1>{t('title')}</h1>
 					<h2>{t('subtitle')}</h2>
-					<p>{t('p1')}</p>
+					<p className={styles.date}>{t('p1')}</p>
 					<p>{t('p2')}</p>
 					<p>{t('p3')}</p>
 					<p style={{color: "#D2691E"}}>{t('p4')}</p>
