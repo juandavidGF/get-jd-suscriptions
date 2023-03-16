@@ -60,6 +60,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
 				<div className={styles.content}>
+				<p>artmelon.me</p>
 					<div>
 						<Link href="https://artmelon.me"><img src="/icon.png" alt="logo artMelon" width="100px" height="100px"  /></Link>
 					</div>
