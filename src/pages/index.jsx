@@ -31,7 +31,7 @@ export default function Home() {
 				headers: {
 					'Content-Type': 'application/json',
 				},
-				body: JSON.stringify({ email: email }),
+				body: JSON.stringify({ email: email, appName: "live-stream 17th March" }),
 			});
 			const data = await res.json();
 			if(data.success === 'Ok') {
@@ -66,7 +66,9 @@ export default function Home() {
 					<p>{t('p3')}</p>
 					<p style={{color: "#D2691E"}}>{t('p4')}</p>
 					<br/><form onSubmit={handleSubmit} className="suscription">
+						
 						<p>{t('label-cta')}</p>
+						{/* <input className={styles.wdyw} type="text" id="email" placeholder="example@aimnerd.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" /><br/> */}
 						<input className={styles.email} type="text" id="email" placeholder="example@aimnerd.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
 						<button className={styles.suscribe} type="submit">{t('cta-button')} </button>
 						<div id='status'></div>

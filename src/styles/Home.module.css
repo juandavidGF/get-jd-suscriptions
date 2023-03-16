@@ -33,3 +33,9 @@
 	border-radius: 5px;
 	cursor: pointer;
 }
+.inputs {
+	max-width: 15rem;
+}
+.wdyw {
+	width: 100%;
+}
