@@ -55,7 +55,7 @@ export default function Home() {
         <title>JDAI events</title>
         <meta name="description" content="Coding with GPT-4 for AI Solutions & Software Development!" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        {/* <link rel="icon" href="/favicon.ico" /> */}
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
 				<div className={styles.content}>
