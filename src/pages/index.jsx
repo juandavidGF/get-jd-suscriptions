@@ -1,6 +1,7 @@
 import styles from '@/styles/Home.module.css'
 import { Inter } from '@next/font/google'
 import Head from 'next/head'
+import Link from 'next/link'
 
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
@@ -59,7 +60,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
 				<div className={styles.content}>
-					<img src="/icon.png" alt="logo artMelon" width="100px" height="100px"  />
+					<Link href="https://artmelon.me"><img src="/icon.png" alt="logo artMelon" width="100px" height="100px"  /></Link>
 					<h1>{t('title')}</h1>
 					<h2>{t('subtitle')}</h2>
 					<p className={styles.date}>{t('p1')}</p>
